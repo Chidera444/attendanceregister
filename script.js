@@ -79,7 +79,7 @@ function displayStudents() {
       </td>
       <td>
         <button class="actions" onclick="editStudent(${i})">Edit</button>
-        <button class="actions" onclick="deleteStudent(${i})">Delete</button>
+        <button class="actions delete-button" onclick="deleteStudent(${i})">Delete</button>
       </td>
     `;
 

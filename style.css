@@ -21,12 +21,30 @@ input[type="text"] {
   padding: 8px;
   width: 60%;
   margin-right: 5px;
+  
 }
 
 button {
   padding: 8px 12px;
   margin: 3px;
+  color: white;
+  background-color: #2563eb;
+  border: 1px solid #1d4ed8;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.delete-button {
+  background-color: #dc2626;
+  border-color: #b91c1c;
+}
+
+.delete-button:hover {
+  background-color: #b91c1c;
 }
 
 table {
