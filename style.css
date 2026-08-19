@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
+
+.counts {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.actions button {
+  padding: 4px 8px;
+  font-size: 12px;
+}
