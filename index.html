@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Attendance Register</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Attendance Register</h1>
+
+<div class="container">
+
+  <!-- Add student -->
+  <div>
+    <input type="text" id="nameInput" placeholder="Enter student name">
+    <button onclick="addStudent()">Add Student</button>
+  </div>
+
+  <!-- Search -->
+  <div style="margin-top:10px;">
+    <input type="text" id="searchInput" placeholder="Search student name" onkeyup="displayStudents()">
+  </div>
+
+  <!-- Save button -->
+  <div style="margin-top:10px;">
+    <button onclick="saveAttendance()">Save Attendance</button>
+    <button onclick="loadAttendance()">Load Saved Attendance</button>
+  </div>
+
+  <!-- Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Status</th>
+        <th>Mark</th>
+        <th>Edit</th>
+      </tr>
+    </thead>
+    <tbody id="studentTableBody">
+    </tbody>
+  </table>
+
+  <!-- Counts -->
+  <div class="counts">
+    <p>Total Present: <span id="presentCount">0</span></p>
+    <p>Total Absent: <span id="absentCount">0</span></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
