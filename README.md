@@ -39,5 +39,5 @@ attendance-register/
 - No backend or database is used — this is a beginner-friendly, front-end-only project.
 
 ## Names of group  30 members
-Onyia Chidera Rachael
-Onyia Chisom Joy
+Onyia Chidera Rachael - 2023030210676
+Onyia Chisom Joy - 2023030211086
