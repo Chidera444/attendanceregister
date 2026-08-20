@@ -41,3 +41,5 @@ attendance-register/
 ## Names of group  30 members
 Onyia Chidera Rachael - 2023030210676
 Onyia Chisom Joy - 2023030211086
+
+https://miniattendance.netlify.app
